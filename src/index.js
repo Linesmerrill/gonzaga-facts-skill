@@ -3,29 +3,25 @@ var Alexa = require('alexa-sdk');
 
 var APP_ID = undefined;
 
-var SKILL_NAME = "arizona's fun facts";
+var SKILL_NAME = "gonzaga's fun facts";
 var GET_FACT_MESSAGE = "Here's your interesting fact: ";
-var HELP_MESSAGE = "You can say tell me a fact about Arizona, or, you can say exit... What can I help you with?";
+var HELP_MESSAGE = "You can say tell me a fact about Gonzaga, or, you can say exit... What can I help you with?";
 var HELP_REPROMPT = "How can I help you?";
 var STOP_MESSAGE = "Have a great day!";
 
 var data = [
-    "The Arizona trout is found only in Arizona.",
-    "Arizona leads the nation in copper production.",
-    "The amount of copper on the roof of the Capitol building is equivalent to 4,800,000 pennies.",
-    "The saguaro cactus blossom is the official state flower",
-    "The saguaro cactus is the largest American cactus.",
-    "The Palo verde is the official state tree. Its name means green stick and it blooms a brilliant yellow-gold in April or May.",
-    "The battleship USS Arizona was named in honor of the state. It was commissioned in 1913 and launched in 1915 from the Brooklyn Navy Yard.",
-    "World War II brought many military personnel to train at Luke and Thunderbird fields in Glendale.",
-    "In 1926, the Southern Pacific Railroad connected Arizona with the eastern states.",
-    "The Arizona tree frog is the state official amphibian. The frog is actually between three-quarter to two inches long.",
-    "The colors blue and gold are the official state colors.",
-    "Four Corners is noted as the spot in the United States where a person can stand in four states at the same time.",
-    "The age of a saguaro cactus is determined by its height.",
-    "Grand Canyon's Flaming Gorge got its name for its blazing red and orange colored, twelve-hundred-foot-high walls.",
-    "The world's largest solar telescope is located at Kitts Peak National Observatory in the city of Sells.",
-    "Turquoise is the official state gemstone. The blue-green stone has a somewhat waxy surface and can be found throughout the state."
+  "Bing Crosby, the crooner most famously associated with songs about Christmas and your gun-toting mother, attended Gonzaga for three years, but did not earn his degree.",
+  "Total enrollment as of two-thousand-seventeen is seven-thousand-five-hundred-and-seventy-two students",
+  "Gonzaga head coach Mark Few, the winningest active coach by percentage at .809, and enjoys fly fishing.",
+  "Gonzaga, the college, was established in eighteen-eighty-seven. Two years later in eighteen-eighty-nine, Washington, the state in which the college resides, achieved statehood.",
+  "Spokane, Washington, where Gonzaga is located, hosted the first Father’s Day celebration in ninteen-ten.",
+  "Despite the small number of enrolled students there are more than one-hundred buildings on campus!",
+  "Gonzaga’s streak of eighteen straight NCAA Tournament appearances is the fourth longest active streak, behind fellow tournament teams Kansas, Duke and Michigan State.",
+  "Men's sports include: Baseball, Basketball, Cross Country, Golf, Rowing, Soccer, Tennis, and Track and Field",
+  "Women's sports include: Basketball, Cross Country, Golf, Rowing, Soccer, Tennis, Track and Field, and Volleyball",
+  "The pronunciation is Gone - ZAG (as in bag) - uh",
+  "The students are actively engaged with the local community, serving over one-hundred-thousand hours annually!",
+  "Nearly all students receive some form of Financial Aid, ninety-eight-percent received financial aid as of two-thousand-seventeen"
 ];
 
 exports.handler = function(event, context, callback) {
