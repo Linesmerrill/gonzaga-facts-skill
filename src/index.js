@@ -13,7 +13,7 @@ var data = [
   "Bing Crosby, the crooner most famously associated with songs about Christmas and your gun-toting mother, attended Gonzaga for three years, but did not earn his degree.",
   "Total enrollment as of two-thousand-seventeen is seven-thousand-five-hundred-and-seventy-two students",
   "Gonzaga head coach Mark Few, the winningest active coach by percentage at .809, and enjoys fly fishing.",
-  "Gonzaga, the college, was established in eighteen-eighty-seven. Two years later in eighteen-eighty-nine, Washington, the state in which the college resides, achieved statehood.",
+  "Gonzaga was established in eighteen-eighty-seven. Two years later in eighteen-eighty-nine, Washington, the state in which the college resides, achieved statehood.",
   "Spokane, Washington, where Gonzaga is located, hosted the first Father’s Day celebration in ninteen-ten.",
   "Despite the small number of enrolled students there are more than one-hundred buildings on campus!",
   "Gonzaga’s streak of eighteen straight NCAA Tournament appearances is the fourth longest active streak, behind fellow tournament teams Kansas, Duke and Michigan State.",
