@@ -2,6 +2,8 @@
 
 Do you think you know all about Gonzaga University? Try this fun knowledge test about Gonzaga.
 
+Activate and try out this skill soon!
+
 Try asking Alexa one of these:
 
 Hey Alexa,
